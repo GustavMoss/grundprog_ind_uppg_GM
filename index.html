@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Enkel reddit klon</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1 style="color: white;">REDDIT-LOGO</h1>
+        </header>
+        <main class="main_content">
+            <section class="new_post hide_new_post">
+                <div class="new_post_container">
+                    <h2>Create a Post</h2>
+                    <label for="post_title">
+                        <h3>Title:</h3>
+                    </label>
+                    <textarea id="post_title" placeholder="Write a title..."></textarea>
+
+                    <label for="post_text">
+                        <h3>Text:</h3>
+                    </label>
+                    <textarea id="post_text" placeholder="Text (optional)"></textarea>
+
+                    <label for="post_tags">
+                        <h3>Tags:</h3>
+                    </label>
+                    <textarea id="post_tags" placeholder="Write tags..."></textarea>
+
+                    <button class="btn create_post_button">Post</button>
+                    <span class="close_new_post">&times;</span>
+                </div>
+            </section>
+            <button class="btn new_post_button">Create Post</button>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
